@@ -46,6 +46,7 @@ public class Programa {
 			emails.forEach(System.out::println);
 			
 			System.out.println();
+			//Somar salarios dos colab que começam com o char desejado
 			System.out.println("Digite uma letra: ");
 			char inicial = sc.next().charAt(0);
 			double soma = lista.stream()
